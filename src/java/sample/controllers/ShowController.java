@@ -24,7 +24,7 @@ import java.util.List;
 @WebServlet(name = "ShowController", urlPatterns = {"/ShowController"})
 public class ShowController extends HttpServlet {
 
-    private static final String ERROR = "productManagement.jsp";
+    private static final String ERROR = "error.jsp";
     private static final String SUCCESS_IN = "product_list_index.jsp";
     private static final String SUCCESS_US = "product_list_user.jsp";
     private static final String SUCCESS_AD = "product_list_admin.jsp";

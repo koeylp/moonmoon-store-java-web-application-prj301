@@ -1,52 +1,47 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
  */
 package sample.controllers;
 
-import sample.drink.Category;
-import sample.drink.Drink;
-import sample.drink.DrinkDAO;
-
+import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  *
  * @author thekh
  */
-@WebServlet(name = "LoadController", urlPatterns = {"/LoadController"})
-public class LoadController extends HttpServlet {
+@WebServlet(name = "GoToHomeController", urlPatterns = {"/GoToHomeController"})
+public class GoToHomeController extends HttpServlet {
 
     private static final String ERROR = "error.jsp";
-    private static final String SUCCESS = "editPage.jsp";
+    private static final String SUCCESS_US = "userPage.jsp";
+    private static final String SUCCESS_AD = "adminPage.jsp";
+    private static final String SUCCESS_GU = "index.jsp";
+
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
         String url = ERROR;
         try {
-            int id = Integer.parseInt(request.getParameter("productID"));
-            DrinkDAO dao = new DrinkDAO();
-            List<Drink> listDrink  = new ArrayList<>();   
-            List<Category> listCat = dao.getAllCategoryDrink();
-            listDrink.add(dao.getProductByID(id));
-            if (listDrink.size() > 0) {
-                request.setAttribute("LIST_DRINK", listDrink);
-                request.setAttribute("LIST_DRINK_CAT", listCat);
-                url = SUCCESS;
-            }
+            String role = request.getParameter("roleID");
+            if (role.equals("GU")) {
+                url = SUCCESS_GU;
+            } else if (role.equals("US")) {
+                url = SUCCESS_US;
+            } else if (role.equals("AD")) {
+                url = SUCCESS_AD;
+            } 
         } catch (Exception e) {
-            log("Error at EditPController: " + e.toString());
+            log("Error at ListController: " + e.toString());
         } finally {
             request.getRequestDispatcher(url).forward(request, response);
+
         }
     }
 

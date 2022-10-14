@@ -51,7 +51,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="userPage.jsp"> <img src="img/logo_moon1.png" alt="logo"> </a>
+                            <a class="navbar-brand" href="MainController?action=Show&roleID=US"> <img src="img/logo_moon1.png" alt="logo"> </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +61,7 @@
                             <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="userPage.jsp">Home</a>
+                                        <a class="nav-link" href="MainController?action=Show&roleID=US">Home</a>
                                     </li>                                  
                                     </li>
                                     <li class="nav-item">
@@ -71,8 +71,8 @@
                                 </ul>
                             </div>
                             <div class="hearer_icon d-flex align-items-center">
-                                <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
-                                <a href="cart.jsp">
+
+                                <a href="MainController?action=GoToCart">
                                     <i class="flaticon-shopping-cart-black-shape"></i>
                                 </a>
                                 <a><i class="fa-solid fa-user"></i></a>
@@ -96,16 +96,7 @@
                     </div>
                 </div>
             </div>
-            <div class="search_input" id="search_input_box">
-                <div class="container ">
-                    <form class="d-flex justify-content-between search-inner" action="MainController">
-                        <input type="text" name="search" class="form-control" id="search_input" placeholder="Search Here">
-                        <input type="hidden" name="role" value="US">
-                        <button type="submit" class="btn" name="action" value="SearchP"></button>
-                        <span class="ti-close" id="close_search" title="Close Search"></span>
-                    </form>
-                </div>
-            </div>
+
         </header>
         <!-- Header part end-->
 
@@ -208,7 +199,7 @@
                         <div class="col-lg-8">
                             <div class="footer_menu">
                                 <div class="footer_logo">
-                                    <a href="userPage.jsp"><img src="img/logo_moon1.png" alt="#"></a>
+                                    <a href="MainController?action=GoToHome&roleID=US"><img src="img/logo_moon1.png" alt="#"></a>
                                 </div>
                             </div>
                         </div>

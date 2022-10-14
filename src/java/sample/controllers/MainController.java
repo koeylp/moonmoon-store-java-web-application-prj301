@@ -58,6 +58,12 @@ public class MainController extends HttpServlet {
     private static final String SHOW_ORDER_CONTROLLER = "Show_orderController";
     private static final String LOGIN_GOOGLE = "LoginGoogle";
     private static final String LOGIN_GOOGLE_CONTROLLER = "LoginGoogleController";
+    private static final String GO_TO_CART = "GoToCart";
+    private static final String GO_TO_CART_CONTROLLER = "GoToCartController";
+    private static final String GO_TO_HOME = "GoToHome";
+    private static final String GO_TO_HOME_CONTROLLER = "GoToHomeController";
+    private static final String GO_TO_LOGIN = "GoToLogin";
+    private static final String GO_TO_LOGIN_CONTROLLER = "GoToLoginController";
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
@@ -123,6 +129,15 @@ public class MainController extends HttpServlet {
                         break;
                     case LOGIN_GOOGLE:
                         url = LOGIN_GOOGLE_CONTROLLER;
+                        break;
+                    case GO_TO_CART:
+                        url = GO_TO_CART_CONTROLLER;
+                        break;
+                    case GO_TO_HOME:
+                        url = GO_TO_HOME_CONTROLLER;
+                        break;
+                    case GO_TO_LOGIN:
+                        url = GO_TO_LOGIN_CONTROLLER;
                         break;
                     default:
                         break;

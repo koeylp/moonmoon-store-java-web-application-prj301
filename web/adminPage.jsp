@@ -49,7 +49,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="adminPage.jsp"> <img src="img/logo_moon1.png" alt="logo"> </a>
+                            <a class="navbar-brand" href="MainController?action=GoToHome&roleID=AD"> <img src="img/logo_moon1.png" alt="logo"> </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +58,7 @@
                             <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="adminPage.jsp">Home</a>
+                                        <a class="nav-link" href="MainController?action=GoToHome&roleID=AD">Home</a>
                                     </li>
                                     
                                     <li class="nav-item">
@@ -231,7 +231,6 @@
         <script src="js/slick.min.js"></script>
         <script src="js/jquery.counterup.min.js"></script>
         <script src="js/waypoints.min.js"></script>
-        <script src="js/contact.js"></script>
         <script src="js/jquery.ajaxchimp.min.js"></script>
         <script src="js/jquery.form.js"></script>
         <script src="js/jquery.validate.min.js"></script>

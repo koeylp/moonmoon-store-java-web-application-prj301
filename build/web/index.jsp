@@ -40,7 +40,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="index.html"> <img src="img/logo_moon1.png" alt="logo"> </a>
+                            <a class="navbar-brand" href="MainController?action=GoToHome&roleID=GU"> <img src="img/logo_moon1.png" alt="logo"> </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +50,7 @@
                             <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.jsp">Home</a>
+                                        <a class="nav-link" href="MainController?action=GoToHome&roleID=GU">Home</a>
                                     </li>
                                     
                                     <li class="nav-item">
@@ -61,10 +61,10 @@
                             </div>
                             <div class="hearer_icon d-flex align-items-center">
                                 <a id="search_1" href="javascript:void(0)"><i class="ti-search"></i></a>
-                                <a href="login.jsp">
+                                <a href="MainController?action=GoToLogin">
                                     <i class="flaticon-shopping-cart-black-shape"></i>
                                 </a>
-                                <a class="dropdown-item" href="login.jsp"> 
+                                <a class="dropdown-item" href="MainController?action=GoToLogin"> 
                                     Login
                                 </a>
                             </div>
@@ -154,7 +154,7 @@
                         <div class="col-lg-8">
                             <div class="footer_menu">
                                 <div class="footer_logo">
-                                    <a href="index.html"><img src="img/logo_moon1.png" alt="#"></a>
+                                    <a href="MainController?action=GoToHome&roleID=GU"><img src="img/logo_moon1.png" alt="#"></a>
                                 </div>                                
                             </div>
                         </div>

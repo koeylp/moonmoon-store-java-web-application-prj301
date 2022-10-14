@@ -41,7 +41,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="index.jsp"> <img src="img/logo_moon1.png" alt="logo"> </a>
+                            <a class="navbar-brand" href="MainController?action=GoToHome&roleID=GU"> <img src="img/logo_moon1.png" alt="logo"> </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse"
                                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                     aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +51,7 @@
                             <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="index.jsp">Home</a>
+                                        <a class="nav-link" href="MainController?action=GoToHome&roleID=GU">Home</a>
                                     </li>                                                                      
                                 </ul>
                             </div>                       
