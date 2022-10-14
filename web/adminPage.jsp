@@ -23,14 +23,14 @@
         <!-- owl carousel CSS -->
         <link rel="stylesheet" href="css/owl.carousel.min.css">
         <!-- font awesome CSS -->
-        <link rel="stylesheet" href="css/all.css">
+        <!--<link rel="stylesheet" href="css/all.css">-->
         <!-- flaticon CSS -->
         <link rel="stylesheet" href="css/flaticon.css">
         <link rel="stylesheet" href="css/themify-icons.css">
         <!-- font awesome CSS -->
         <link rel="stylesheet" href="css/magnific-popup.css">
         <!-- swiper CSS -->
-        <link rel="stylesheet" href="css/slick.css">
+
         <!-- style CSS -->
         <link rel="stylesheet" href="css/style.css">
     </head>

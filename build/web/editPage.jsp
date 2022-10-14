@@ -39,8 +39,7 @@
         <link rel="stylesheet" href="css/magnific-popup.css">
         <link rel="stylesheet" href="css/nice-select.css">
 
-        <!-- swiper CSS -->
-        <link rel="stylesheet" href="css/slick.css">
+        
         <!-- style CSS -->
         <link rel="stylesheet" href="css/style.css">
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
