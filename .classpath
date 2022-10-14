@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="build/generated/src"/>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="lib" path="AccessGoogle_lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="AccessGoogle_lib/fluent-hc-4.5.5.jar"/>
+	<classpathentry kind="lib" path="AccessGoogle_lib/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="AccessGoogle_lib/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="AccessGoogle_lib/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/fluent-hc-4.5.5.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/gson-2.8.2.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/httpclient-4.5.5.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/httpcore-4.4.9.jar"/>
+	<classpathentry kind="lib" path="build/web/WEB-INF/lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="sqljdbc4.jar"/>
+	<classpathentry kind="output" path="build/generated/classes"/>
+</classpath>
